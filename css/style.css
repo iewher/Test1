@@ -880,7 +880,7 @@ flex-grow: 0;
     padding: 160px 250px;
     isolation: isolate;
     width: 1600px;
-    height: 600px;
+    height: 1000px;
     background: #030D0D;
     flex: none;
     order: 5;
@@ -914,7 +914,7 @@ flex-grow: 0;
     order: 0;
     flex-grow: 0;
     z-index: 0;
-    border: 1px solid white;
+    border: 1px;
     background-image:url(/img/forma.png) ;
 }
 
@@ -1032,3 +1032,172 @@ flex-grow: 0;
     margin-left: 100px;
 }
 
+.application {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 24px;
+    width: 700px;
+    height: 264px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: auto;
+}
+
+.applicationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 700px;
+    height: 184px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.inputs1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 700px;
+    height: 48px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.inputs2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 700px;
+    height: 48px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-top: 40px;
+}
+
+.input1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 270px;
+    height: 48px;
+    border: 2px solid #DAF2F2;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.input2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 270px;
+    height: 48px;
+    border: 2px solid #DAF2F2;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.input3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 270px;
+    height: 48px;
+    border: 2px solid #DAF2F2;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.input4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 10px;
+    width: 270px;
+    height: 48px;
+    border: 2px solid #DAF2F2;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.txtInInput {
+    width: 126px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3D4040;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.placeAfterForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    width: 700px;
+    height: 48px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.buttonAfterForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 8px;
+    width: 164px;
+    height: 48px;
+    background: #14CCCC;
+    border-radius: 8px;
+    border-color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: white;
+}
+
+.policy {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 1px solid black;
+}
