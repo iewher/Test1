@@ -887,31 +887,35 @@ flex-grow: 0;
     flex-grow: 0;
 }
 
-.imageForm {
-    margin-top: 400px;
-    width: 1600px;
-    height: 392px;
-    border-radius: 8px;
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 160px 250px;
+    isolation: isolate;
+    width: 1920px;
+    height: 712px;
+    background: #030D0D;
     flex: none;
-    order: 1;
+    order: 4;
     flex-grow: 0;
-    z-index: 0;
 }
 
 .form {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 60px;
     width: 1420px;
     height: 392px;
-    border-radius: 8px;
+    border-radius: 10px;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: -396px 0px;
-    z-index: 1;
+    z-index: 0;
+    border: 1px solid white;
+    background-image:url(/img/forma.png) ;
 }
 
 .leftForm {
@@ -931,18 +935,19 @@ flex-grow: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 10px;
     gap: 24px;
     width: 480px;
     height: 112px;
     flex: none;
     order: 0;
     flex-grow: 0;
+    
 }
 
-.txt1Form {
-    margin: 1000px 500px 500px 100px;
-    margin-top: 500px;
+.txtForm1 {
+    margin-top: 100px;
+    margin-left: 50px;
     width: 480px;
     height: 40px;
     font-family: 'Gogh';
@@ -956,29 +961,64 @@ flex-grow: 0;
     flex-grow: 0;
 }
 
-.spanfortxt {
+.txtForm2 {
+    width: 480px;
+    height: 48px;
     font-family: 'Raleway';
-    font-size: 20px;
     font-style: normal;
-    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 45px;
 }
 
-.buttonSocial1 {
-    margin: 1000px 500px 500px 150px;
-    margin-top: 600px;
-    width: 48px;
-    height: 48px;
-    background: #FFFFFF;
-    box-shadow: 0px 0px 20px rgba(13, 64, 64, 0.1);
-    border-radius: 4px;
+.otherForm {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    width: 462px;
+    height: 100px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+
+.txtOtherForm {
+    width: 462px;
+    height: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 
-.buttonSocial2 {
-    margin: auto;
-    margin-top: -607px;
+.box1 {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0px 0px 20px rgba(13, 64, 64, 0.1);
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.box2 {
+    display: flex;
     width: 48px;
     height: 48px;
     background: #FFFFFF;
@@ -987,12 +1027,6 @@ flex-grow: 0;
     flex: none;
     order: 1;
     flex-grow: 0;
+    
 }
 
-.vk {
-    margin: 10px;
-}
-
-.tg {
-    margin: 10px;
-}
