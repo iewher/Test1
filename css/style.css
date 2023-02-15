@@ -1201,3 +1201,7 @@ flex-grow: 0;
     flex-grow: 0;
     border: 1px solid black;
 }
+
+.vk, .tg {
+    margin: auto;
+}
