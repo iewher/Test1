@@ -26,6 +26,11 @@
        url('../fonts/raleway-v28-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     scroll-behavior: smooth;
   }
@@ -90,6 +95,17 @@ html {
     flex-grow: 1;
 }
 
+.right button {
+    background: #14CCCC;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.right button:hover {
+    background: white;
+    transition: 0.5s;
+}
+
 .linkMain {
     font-family: 'Raleway';
     display: flex;
@@ -103,6 +119,18 @@ html {
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.linkMain a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.linkMain a:hover {
+    color: #14CCCC;
+    transition: 0.5s;
 }
 
 .block {
@@ -121,6 +149,10 @@ html {
     flex-grow: 0;
 }
 
+.block:hover {
+    background: white;
+}
+
 .Button {
     width: 60px;
     height: 21px;
@@ -129,10 +161,21 @@ html {
     font-weight: 700;
     font-size: 14px;
     line-height: 150%;
-    color: #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
+    
+}
+
+.Button a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.Button a:hover {
+    color: #14CCCC;
+    transition: 0.5s;
 }
 
 .Body {
